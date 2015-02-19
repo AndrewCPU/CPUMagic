@@ -1,11 +1,12 @@
 package net.Andrewcpu.CPUMagic.Spells.Blood;
 
 import org.bukkit.entity.Player;
+import org.bukkit.event.Listener;
 
 /**
  * Created by Andrew on 2/19/2015.
  */
-public class TransfuseSpell {
+public class TransfuseSpell implements Listener{
     int level = 1;
     public void cast(Player player){
 

@@ -1,11 +1,12 @@
 package net.Andrewcpu.CPUMagic.Spells.Dark;
 
+import net.Andrewcpu.CPUMagic.Spells.Spell;
 import org.bukkit.entity.Player;
 
 /**
  * Created by Andrew on 2/19/2015.
  */
-public class LeechSpell {
+public class LeechSpell implements Spell {
     int level = 1;
     public void cast(Player player){
 
@@ -20,9 +21,9 @@ public class LeechSpell {
         return 10;
     }
     public int getLevel(){
-        
+        return level;
     }
     public void setLevel(int i){
-
+        this.level= i;
     }
 }
