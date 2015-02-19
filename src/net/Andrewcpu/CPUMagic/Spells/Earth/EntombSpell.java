@@ -12,18 +12,18 @@ public class EntombSpell implements Spell {
 
     }
     public int getManaCost(){
-
+        return 100;
     }
     public String getName(){
-
+        return "Entomb";
     }
     public int getCooldownTime(){
-
+        return 10;
     }
     public int getLevel(){
-
+        return level;
     }
     public void setLevel(int i){
-
+        this.level = i;
     }
 }

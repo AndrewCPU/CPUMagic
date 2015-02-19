@@ -13,7 +13,7 @@ public class DazzleSpell implements Spell {
     }
     public int getManaCost()
     {
-        return 200;
+        return 100;
     }
     public String getName()
     {
